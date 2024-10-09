@@ -51,5 +51,12 @@ public class TestMethods {
     public int max(int a, int b) {
         return a > b ? a : b;
     }
+    public int sum(int n) {
+        int sum = 0;
+        for(int i = 1; i <= n; i++) {
+            sum += i;
+        }
+        return sum;
+    }
 
 }
